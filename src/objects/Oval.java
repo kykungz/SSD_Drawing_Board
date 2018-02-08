@@ -22,7 +22,6 @@ public class Oval extends GObject {
 	public void paintObject(Graphics g) {
 		g.setColor(color);
 		g.fillOval(x, y, width, height);
-		System.out.printf("painting: %d %d %d %d\n", x, y, width, height);
 	}
 
 	@Override
