@@ -98,7 +98,6 @@ public class DrawingBoard extends JPanel {
 				if (gObject.pointerHit(e.getX(), e.getY())) {
 					target = gObject;
 					target.selected();
-					System.out.println(target);
 					break;
 				}
 			}
